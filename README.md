@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Mini Module - Notification Banner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and reusable React component to display styled notification banners based on the type of message.
 
-## Available Scripts
+##  Objective
 
-In the project directory, you can run:
+Create a **reusable `NotificationBanner` React component** that:
 
-### `npm start`
+- Displays a message to the user.
+- Adapts styling based on notification type (`success`, `error`, `warning`, `info`).
+- Uses **PropTypes** for validation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Tasks Completed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###  1. Create Component Structure
+- Defined a functional component named `NotificationBanner`.
 
-### `npm test`
+###  2. Receive Props
+- Accepted `type` and `message` as props.
+- Used destructuring to extract the values.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###  3. Render UI Based on Type
+- Displayed the message inside a banner.
+- Applied different background colors based on `type`:
+  - ✅ Green for success
+  - ❌ Red for error
+  - ⚠️ Yellow for warning
+  - ℹ️ Blue for info
 
-### `npm run build`
+###  4. Add PropTypes Validation
+- `type`: one of `["success", "error", "warning", "info"]` (**required**)
+- `message`: string (**required**)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Component Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```jsx
+<NotificationBanner type="success" message="Operation completed successfully!" />
+<NotificationBanner type="error" message="Something went wrong!" />
+<NotificationBanner type="warning" message="Warning: Please check your input." />
+<NotificationBanner type="info" message="For your information only." />
+```
+## Output
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/684e2792-306c-4a72-8055-fd1fad7fc9c3" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment Link
+https://harsayazheni.github.io/Notification-Banner/
