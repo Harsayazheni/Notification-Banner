@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Notification-Banner/static/css/main.0866ab9a.css",
+    "main.js": "/Notification-Banner/static/js/main.13041694.js",
+    "static/js/453.a154fc21.chunk.js": "/Notification-Banner/static/js/453.a154fc21.chunk.js",
+    "index.html": "/Notification-Banner/index.html",
+    "main.0866ab9a.css.map": "/Notification-Banner/static/css/main.0866ab9a.css.map",
+    "main.13041694.js.map": "/Notification-Banner/static/js/main.13041694.js.map",
+    "453.a154fc21.chunk.js.map": "/Notification-Banner/static/js/453.a154fc21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0866ab9a.css",
+    "static/js/main.13041694.js"
+  ]
+}
