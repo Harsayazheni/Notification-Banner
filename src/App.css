@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 70vh;
+  padding: 20px;
+  color: white;
+}
+
+.banner {
+  padding:20px;
+  margin: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+.info {
+  background-color: blue;
+  color: white;
+}
+
+footer{
+  text-align: center;
+}
